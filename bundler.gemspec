@@ -18,6 +18,13 @@ Gem::Specification.new do |s|
   s.summary     = "The best way to manage your application's dependencies"
   s.description = "Bundler manages an application's dependencies through its entire life, across many machines, systematically and repeatably"
 
+  s.metadata    = {
+    "homepage_uri" => "https://bundler.io/",
+    "source_code_uri" => "http://github.com/bundler/bundler/",
+    "changelog_uri" => "https://github.com/bundler/bundler/blob/master/CHANGELOG.md",
+    "bug_tracker_uri" => "http://github.com/bundler/bundler/issues",
+  }
+
   s.required_ruby_version     = ">= 1.8.7"
   s.required_rubygems_version = ">= 1.3.6"
 
